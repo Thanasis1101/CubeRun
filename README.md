@@ -19,8 +19,10 @@ The game could potentially be built for Linux and Mac, but these versions haven'
 
 # Android Preview
 
+![](/Preview/Game%20Preview.gif)
+
 <p align="center">
- See the full video <a href="/Preview/Game%20%Preview.mp4" target="_blank" >here</a>.
+ See the full preview <a href="https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Preview/Game%20Preview.mp4">here<a/>.
 </p>
 
 # Windows Screenshots
