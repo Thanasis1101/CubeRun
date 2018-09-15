@@ -9,7 +9,7 @@ A 3D arcade game made with Unity, tested in Windows and Android.
 Cube Run is a simple 3D game, in which you control a cube and you try to reach the finish line without hitting on the obstacles or falling from the side of the corridor.
 It has 3 levels so far, but everyone is welcome to create new levels, in order to expand the game.
 The game was developed in [Unity Personal](https://store.unity.com/download?ref=personal), using C# (you can find the scripts [here](/Unity%20Project/CubeRun/Assets/Scripts)).
-In order to create this game, I followed the [Unity tutorial](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6) from the [Brackeys](https://www.youtube.com/user/Brackeys) youtube channel.
+In order to create this game, I followed the [Unity tutorial](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6) from the [Brackeys](https://www.youtube.com/user/Brackeys) youtube channel (very well-made tutorial).
 Then I added some extra functionality (like cube shatter on collision, more animations, controls for Android users etc.) with the help of other youtube videos and relevant forums.
 The game could potentially be built for Linux and Mac, but these versions haven't been tested yet. Feel free to build it and test it yourself, if you want.
 
@@ -18,6 +18,10 @@ The game could potentially be built for Linux and Mac, but these versions haven'
 </p>
 
 # Android Preview
+
+<p align="center">
+ See the full video <a href="/Preview/Game%20%Preview.mp4" target="_blank" >here</a>.
+</p>
 
 # Windows Screenshots
 
@@ -34,9 +38,8 @@ The game could potentially be built for Linux and Mac, but these versions haven'
 <p align="center">
  <img src="/Images/Level%203.png" width="600" height="400" />
 </p>
-
 <p align="center">
- See more screenshots <a target="_blank" href="/Images/">here</a>.
+ See more screenshots <a href="/Images/" target="_blank" >here</a>.
 </p>
 
 ## Windows
