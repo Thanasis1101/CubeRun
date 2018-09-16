@@ -26,7 +26,7 @@ The game could potentially be built for Linux and Mac, but these versions haven'
 
 
 <p align="center">
- See the full preview <a href="https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Preview/Game%20Preview.mp4">here<a/>.
+ See the full preview <a href="https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Preview/Game%20Preview.mp4">here</a>.
 </p>
 
 
