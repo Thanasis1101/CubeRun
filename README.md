@@ -6,6 +6,7 @@ A 3D arcade game made with Unity, tested in Windows and Android.
    <img src="https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Unity%20Project/CubeRun/Assets/Images/cube.png" width="200" height="220" />
 </p>
 
+
 Cube Run is a simple 3D game, in which you control a cube and you try to reach the finish line without hitting on the obstacles or falling from the side of the corridor.
 It has 3 levels so far, but everyone is welcome to create new levels, in order to expand the game.
 The game was developed in [Unity Personal](https://store.unity.com/download?ref=personal), using C# (you can find the scripts [here](https://github.com/Thanasis1101/CubeRun/tree/master/Unity%20Project/CubeRun/Assets/Scripts)).
@@ -13,19 +14,24 @@ In order to create this game, I followed the [Unity tutorial](https://www.youtub
 Then I added some extra functionality (like cube shatter on collision, more animations, controls for Android users etc.) with the help of other youtube videos and relevant forums.
 The game could potentially be built for Linux and Mac, but these versions haven't been tested yet. Feel free to build it and test it yourself, if you want.
 
+
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2000px-Unity_Technologies_logo.svg.png" width="400" height="150" />
 </p>
+
 
 # Android Preview
 
 ![](https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Preview/Game%20Preview.gif)
 
+
 <p align="center">
  See the full preview <a href="https://raw.githubusercontent.com/Thanasis1101/CubeRun/master/Preview/Game%20Preview.mp4">here<a/>.
 </p>
 
+
 # Windows Screenshots
+
 
 <p align="center">
  <br />
@@ -44,14 +50,19 @@ The game could potentially be built for Linux and Mac, but these versions haven'
  See more screenshots <a href="https://github.com/Thanasis1101/CubeRun/tree/master/Images/">here</a>.
 </p>
 
+
 ## Windows
 
+
 In order to install the game on Windows, you should:
+
  - Download the Installer from [here](https://github.com/Thanasis1101/CubeRun/tree/master/Install/Windows/Cube_run_setup.exe)
  - Run the Installer
  - Run the installed game
 
+
 The installer was created using [Inno Setup](http://www.jrsoftware.org/isdl.php).
+
 
 Controls for windows users:
 
@@ -60,9 +71,12 @@ Controls for windows users:
  - **Jump**: Up Arrow Key or Space
  - **Pause**: p
 
+
 ## Android
 
+
 In order to install the game on Android, you should:
+
  - Download the APK from [here](https://github.com/Thanasis1101/CubeRun/tree/master/Install/Android/CubeRun.apk)
  - Install the APK
  - Run the installed game
