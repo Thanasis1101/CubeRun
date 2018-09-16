@@ -13158,9 +13158,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeSize: 0.2
   cubesInRow: 5
-  explosionForce: 80
-  explosionRadius: 5
-  explosionUpward: 5
+  explosionForce: 20
+  explosionRadius: 20
+  explosionUpward: 1
 --- !u!1001 &2075539311
 Prefab:
   m_ObjectHideFlags: 0

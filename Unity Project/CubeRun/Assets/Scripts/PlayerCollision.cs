@@ -12,9 +12,9 @@ public class PlayerCollision : MonoBehaviour
     float cubesPivotDistance;
     Vector3 cubesPivot;
 
-    public float explosionForce = 50f;
-    public float explosionRadius = 4f;
-    public float explosionUpward = 0.4f;
+    public float explosionForce = 20f;
+    public float explosionRadius = 20f;
+    public float explosionUpward = 1f;
 
     void Start()
     {
@@ -40,7 +40,6 @@ public class PlayerCollision : MonoBehaviour
         }
 
     }
-
     
     public void Explode()
     {
@@ -73,27 +72,9 @@ public class PlayerCollision : MonoBehaviour
         foreach (GameObject piece in pieces)
         {
             piece.GetComponent<Rigidbody>().AddForce(gameObject.GetComponent<Rigidbody>().velocity / 2, ForceMode.VelocityChange);
-        }   
-
-        /* Explode near obstacles
-
-        //get explosion position
-        Vector3 explosionPos = transform.position;
-        //get colliders in that position and radius
-        Collider[] colliders = Physics.OverlapSphere(explosionPos, explosionRadius);
-        //add explosion force to all colliders in that overlap sphere
-        foreach (Collider hit in colliders)
-        {
-            //get rigidbody from collider object
-            Rigidbody rb = hit.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                //add explosion force to this body with given parameters
-                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius, explosionUpward);
-            }
+            piece.GetComponent<Rigidbody>().AddExplosionForce(explosionForce, transform.position, explosionRadius, explosionUpward);
         }
 
-        */
     }
 
     GameObject CreatePiece(int x, int y, int z)
@@ -113,7 +94,7 @@ public class PlayerCollision : MonoBehaviour
 
         //add rigidbody and set mass
         piece.AddComponent<Rigidbody>();
-        piece.GetComponent<Rigidbody>().mass = 0.5f;
+        piece.GetComponent<Rigidbody>().mass = cubeSize;
         
         return piece;
     }
